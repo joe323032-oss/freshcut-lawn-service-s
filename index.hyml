@@ -1,0 +1,126 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#101010">
+<title>FreshCut Lawn Services | Uxbridge, MA</title>
+<style>
+:root{--green:#39ff14;--black:#101010;--white:#f8f8f8}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--black);color:var(--white);font-family:Arial,Helvetica,sans-serif;line-height:1.6}
+header{padding:18px 6%;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #303030;gap:12px;flex-wrap:wrap}
+.logo{font-size:22px;font-weight:900;letter-spacing:-1px}
+.logo span{color:var(--green)}
+nav a{color:white;text-decoration:none;margin-left:16px;font-size:14px}
+.hero{padding:90px 7% 80px;background:radial-gradient(ellipse at 80% 30%,#18301a 0%,#101010 58%);text-align:center}
+.tag{color:var(--green);font-weight:bold;text-transform:uppercase;letter-spacing:3px;font-size:12px}
+h1{font-size:clamp(40px,9vw,72px);line-height:1.03;margin:20px 0}
+h1 span{color:var(--green)}
+.hero p{max-width:580px;margin:20px auto;color:#ccc;font-size:18px}
+.btn{display:inline-block;padding:14px 22px;background:var(--green);color:#101010;text-decoration:none;font-weight:bold;border-radius:6px;margin:8px 4px}
+.btn.alt{background:transparent;color:white;border:1px solid #777}
+section{padding:60px 7%}
+h2{text-align:center;font-size:32px;margin:0 0 12px}
+.sub{text-align:center;color:#aaa;margin:0 auto 30px;max-width:580px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:16px;margin-top:30px}
+.card{background:#1a1a1a;border:1px solid #333;border-radius:12px;padding:24px}
+.card .emoji{font-size:32px}
+.card h3{margin:10px 0 4px}
+.price{color:var(--green);font-size:22px;font-weight:bold}
+.card p{color:#bbb}
+.about{background:#171717}
+.aboutbox{max-width:760px;margin:auto;text-align:center}
+.aboutbox p{color:#ccc}
+.contact{text-align:center}
+footer{text-align:center;padding:25px;color:#aaa;border-top:1px solid #333;font-size:13px}
+footer strong{color:var(--green)}
+</style>
+</head>
+<body>
+<header>
+  <div class="logo">🌱 FRESHCUT<span> LAWN SERVICES</span></div>
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#prices">Prices</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+<section class="hero">
+  <div class="tag">Serving Uxbridge, Massachusetts</div>
+  <h1>Making Every Yard<br><span>Look Fresh.</span></h1>
+  <p>Need a hand with your yard? FreshCut Lawn Services offers lawn mowing and simple outdoor cleanup to help keep your property looking neat.</p>
+  <a class="btn" href="tel:+17743309225">📞 Call (774) 330-9225</a>
+  <a class="btn alt" href="#services">Explore Services</a>
+</section>
+
+<section id="services">
+  <h2>What We Do</h2>
+  <p class="sub">Straightforward yard care to help your outdoor space look its best.</p>
+  <div class="cards">
+    <article class="card">
+      <div class="emoji">🌱</div>
+      <h3>Lawn Mowing</h3>
+      <p>Help keep your lawn neat and tidy with a fresh cut.</p>
+    </article>
+    <article class="card">
+      <div class="emoji">🍂</div>
+      <h3>Leaf & Yard Cleanup</h3>
+      <p>Raking leaves and tidying up outdoor areas.</p>
+    </article>
+    <article class="card">
+      <div class="emoji">🧹</div>
+      <h3>Porch & Walkway Sweeping</h3>
+      <p>Clear away loose leaves and everyday outdoor debris.</p>
+    </article>
+  </div>
+</section>
+
+<section id="prices" class="about">
+  <h2>Simple Starting Prices</h2>
+  <p class="sub">Final prices depend on the size and condition of the job. Ask for a quote before work begins.</p>
+  <div class="cards">
+    <article class="card">
+      <h3>Lawn Mowing</h3>
+      <div class="price">$20–$40+</div>
+      <p>Depending on lawn size and difficulty.</p>
+    </article>
+    <article class="card">
+      <h3>Leaf Cleanup</h3>
+      <div class="price">$10–$25+</div>
+      <p>Depending on the amount of leaves.</p>
+    </article>
+    <article class="card">
+      <h3>Sweeping</h3>
+      <div class="price">$5–$10+</div>
+      <p>Depending on the area to be cleaned.</p>
+    </article>
+  </div>
+</section>
+
+<section class="about">
+  <div class="aboutbox">
+    <h2>Why FreshCut?</h2>
+    <p>Friendly service, clear prices, and care for the little details. Contact us to discuss your yard and find out whether we can help.</p>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <h2>Let's Get Your Yard Fresh!</h2>
+  <p class="sub">Located in Uxbridge, Massachusetts. Get in touch to ask about a job or request a quote.</p>
+  <a class="btn" href="tel:+17743309225">Call (774) 330-9225</a>
+  <p>📍 Uxbridge, Massachusetts</p>
+</section>
+</main>
+
+<footer>
+  <strong>FRESHCUT LAWN SERVICES</strong><br>
+  Making Every Yard Look Fresh.<br>
+  Uxbridge, Massachusetts · (774) 330-9225
+</footer>
+</body>
+</html>
